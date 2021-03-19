@@ -19,16 +19,20 @@ div{
 }
 .facebook{
     background: url(./image/facebook.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .lantern{
-    background: url(./image/lantern.jpg);
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),
+    url(./image/lantern.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .sky{
     background: url(./image/sky.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
