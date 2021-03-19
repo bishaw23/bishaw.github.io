@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.facebook{
+    background: url(./image/facebook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lantern{
+    background: url(./image/lantern.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sky{
+    background: url(./image/sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
